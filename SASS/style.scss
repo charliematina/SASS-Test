@@ -1,0 +1,83 @@
+$primary-font: 'Roboto', sans-serif;
+$primary-color: white;
+$seconday-color: gray;
+$primary-font-color: black;
+$primary-font-size: 18px;
+$seconday-font-size: 10px;
+$full-width: 100%;
+$display-inline-block: inline-block;
+$content-image: 200px;
+$padding-top: 40px;
+
+body{
+	width: 1000px;
+	margin: auto;
+}
+
+p{
+	color: $primary-font-color;
+	font-family: $primary-font;
+}
+
+#master-container{
+	width: $full-width;
+	background-color: none;
+	padding-top: 200px;
+}
+
+#left-container{
+	background-color: red;
+	width: 50%;
+	float: left;
+}
+
+#right-container{
+	width: 40%;
+	float: left;
+	padding-left: 30px;
+}
+
+#content-container{
+	width: $full-width;
+	height: auto;
+	background-color: $primary-color;
+	float: left;
+}
+
+.content-image{
+	float: left;
+	width: 50%
+}
+
+.content-image img{
+	width: 100%;
+}
+
+.content-text{
+	float: left;
+	width: 45%;
+	margin-top: -$primary-font-size;
+	margin-left: 10px;
+}
+
+#right-content-container{
+	width: $full-width;
+	margin-bottom: 20px;
+}
+
+.right-content-image{
+	width: 50%;
+}
+
+.right-content-image img{
+	width: 70%;
+	float: left;
+
+}
+
+.right-content-text{
+	float: left;
+	width: 30%;
+	font-size: 10px;
+	margin-top: -$seconday-font-size;
+}
